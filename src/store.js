@@ -26,7 +26,7 @@ export default new Vuex.Store({
                 const urlStorage = "http://localhost:8080/storage";
                 axios.get(urlStorage).then(function(response){
                         let request = response.data;
-                      //  store.storageListData = request;
+                      
                      //   console.log(response);
                         store.commit('addRequest',request);
                     }).catch(

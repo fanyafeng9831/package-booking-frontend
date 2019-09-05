@@ -6,6 +6,7 @@
       <router-link to="/storageofparcels">包裹入库</router-link> |
       <router-link to="/about">About</router-link>
       
+	  
     </div>
     <router-view/>
   </div>
